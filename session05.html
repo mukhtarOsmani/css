@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style type="text/css">
+*
+{
+    box-sizing: border-box;
+}
+
+
+
+.boxitem
+{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    text-align: justify;
+    font-size: 20px;
+    
+}
+.header
+{
+    width: 100%;
+    height: 250px;
+    background-color: turquoise;
+    padding: 20px;
+    color: #fff;
+    border: solid mediumturquoise 20px;
+    
+}
+.header h1
+{
+    text-shadow: 1px 1px #000;
+}
+
+.items
+{
+
+}
+.item
+{
+    float: left;
+    width: 40%;
+    padding: 20px;
+    text-align: justify;
+    height: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: width 2s ease-in-out;
+    
+    
+}
+
+.item:hover
+{
+    float: left;
+    width: 41%;
+    padding: 20px;
+    text-align: justify;
+    height: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    
+    
+}
+
+
+
+
+
+#item1
+{
+    background-color:steelblue;
+}
+#item2
+{
+    background-color: turquoise;
+}
+#item3
+{
+    background-color: violet;
+}
+#item4
+{
+    background-color: tomato;
+}
+/* .boxes:after
+{
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+@media screen and (max-width:1000px)
+{
+    .boxitem
+{
+   
+    width: 50%;
+   
+}
+}
+
+@media screen and (max-width:600px)
+{ 
+    .boxitem
+{
+    width: 100%; 
+    font-size: 15px;
+    
+
+}
+.item
+{
+ 
+    width: 100%;   
+    /* background-image: url(./img/banner.jpg);
+    background-size: cover */
+}
+
+.item img {
+
+    
+};
+
+
+
+}
+
+
+
+
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+
+<section class="header">
+<h1>Hello again!</h1>
+<p>Your browser has been updated. Keep it tidy with thse new features.</p>
+</section>
+<section class="items" >
+<div class="item" id="item1">
+    <img src="./img/FRONT-END.jpg">
+    <!-- <h2>Pinboards</h2>
+    <p>Save and collect web content easily, share it visually. </p> -->
+</div>
+<div class="item" id="item2">
+    <h2>Pinboards</h2>
+    <p>Save and collect web content easily, share it visually. </p>
+</div>
+<div class="item" id="item3">
+    <h2>Pinboards</h2>
+    <p>Save and collect web content easily, share it visually. </p>
+</div>
+<div class="item" id="item4">
+    <h2>Pinboards</h2>
+    <p>Save and collect web content easily, share it visually. </p>
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="boxes">
+    <div class="boxitem" style="background-color: brown;" >
+<h1>Box 1</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit esse ratione atque perferendis natus. Animi similique quia ratione suscipit tempora quae quaerat vel odio, aperiam enim dignissimos atque consequuntur error? </p>
+    </div>
+    <div class="boxitem" style="background-color: tomato;">
+        <h1>Box 2</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit esse ratione atque perferendis natus. Animi similique quia ratione suscipit tempora quae quaerat vel odio, aperiam enim dignissimos atque consequuntur error? </p>
+    </div>
+    <div class="boxitem" style="background-color:deeppink">
+        <h1>Box 3</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit esse ratione atque perferendis natus. Animi similique quia ratione suscipit tempora quae quaerat vel odio, aperiam enim dignissimos atque consequuntur error?</p>
+    </div>
+    <div class="boxitem" style="background-color: red;">
+        <h1>Box 4</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit esse ratione atque perferendis natus. Animi similique quia ratione suscipit tempora quae quaerat vel odio, aperiam enim dignissimos atque consequuntur error? </p>
+    </div>
+
+
+
+ </div>   
+
+
+
+
+    
+</body>
+</html>
